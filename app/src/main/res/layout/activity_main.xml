@@ -57,38 +57,17 @@
                 android:text="@string/dollar" />
 
             <RadioButton
-                android:id="@+id/real"
+                android:id="@+id/euro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/real" />
+                android:text="@string/euro" />
         </RadioGroup>
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/layout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/layout2">
-
-        <TextView
-            android:id="@+id/newValueLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/valor_convertido" />
-
-        <TextView
-            android:id="@+id/newValue"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/newValueLabel"
-            android:layout_toRightOf="@id/newValueLabel"
-            android:paddingLeft="@dimen/paddingLeft" />
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/layout3">
 
         <Button
             android:id="@+id/convert"
